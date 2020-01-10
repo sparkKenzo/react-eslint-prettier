@@ -22,7 +22,7 @@ module.exports = {
       'warn',
       { skipBlankLines: true, ignoreComments: true }
     ],
-    'comma-dangle': ['error', 'only-multiline'],
+    'comma-dangle': ['error', 'always-multiline'],
     'no-unused-expressions': [
       'error',
       { allowShortCircuit: true, allowTernary: true }
